@@ -1,7 +1,7 @@
 const { Router } = require("express");
 const router = Router();
 
-const controller = require('../controller')
+const controller = require('../controllers')
 
 //CREATE CLIENT [POST]
 router.post("/create", controller.clients.create );

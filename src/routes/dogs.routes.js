@@ -2,7 +2,7 @@ const { Router } = require("express");
 
 const router = Router();
 
-const controller = require('../controller')
+const controller = require('../controllers')
 
 //TO CREATE A DOG FOR A CLIENT
 router.post("/dog/:id", controller.dogs.createDog);
